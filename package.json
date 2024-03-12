@@ -2,7 +2,7 @@
   "name": "gitpra",
   "version": "1.0.0",
   "description": "",
-  "main": "func.js",
+  "main": "codigo.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
