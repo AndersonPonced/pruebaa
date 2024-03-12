@@ -1,14 +1,6 @@
- 
-
- function suma(a,b,c=0,d=0) {
-     if(c != 0 && d !=0){
-          return a + b + c + d
-     }else if(c != 0){
-          return a + b + c
-     }else{
-          return a + b
-     }
-
+function suma(...num) {
+     return num.reduce((total, current) => total + current, 0);
  }
-
- console.log(suma(2,2,2,2))
+ 
+ console.log(suma(2, 2, 2, 500,)); // Output: 8
+ 
