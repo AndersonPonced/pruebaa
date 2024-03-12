@@ -1,4 +1,6 @@
 const nombre = "Anderson";
 const apellido = "Ponce";
 
-console.log('hola ' + nombre + ' ' + apellido + ' ¿como estas?')
+const saludos = 'hola ' + nombre + ' ' + apellido + ' ¿como estas?';
+
+console.log(saludos)
